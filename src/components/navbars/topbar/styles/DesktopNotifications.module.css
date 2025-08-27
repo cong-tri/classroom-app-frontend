@@ -1,0 +1,146 @@
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.listItem {
+  position: relative;
+}
+
+.notificationToggle {
+  display: inline-block;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.notificationToggle:hover {
+  background-color: #e9ecef;
+}
+
+.notificationDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdownContent {
+  padding: 16px 0;
+}
+
+.borderBottom {
+  padding: 0 16px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.borderTop {
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.seeAllLink {
+  font-weight: 600;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.seeAllLink:hover {
+  text-decoration: underline;
+}
+
+.userToggle {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #28a745;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.userDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.profileInfo {
+  padding: 8px 16px 0;
+}
+
+.divider {
+  margin: 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.dropdownItem {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.dropdownItem:hover {
+  background-color: #f8f9fa;
+}
+
+.textPrimary {
+  color: #007bff !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.ms-2 {
+  margin-left: 0.5rem;
+}
